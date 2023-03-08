@@ -1,0 +1,302 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 20,
+      "id": 1,
+      "isAdmin": true,
+      "cart": [],
+      "paymentData": []
+    },
+    {
+      "email": "rafhael@mail.com",
+      "password": "$2a$10$sIi9RDFTSwtpp2b6S0eUluX3lFfp4/d3V.rtMPKm7knMHnpCLKamy",
+      "name": "Rafhael Cristian",
+      "age": 31,
+      "isAdmin": true,
+      "id": 2
+    },
+    {
+      "email": "test2@mail.com",
+      "password": "$2a$10$CX2ffFSn.gcU0YaTgFakN.q401LUk74F.EMBeMkgipgAuFNogj5hC",
+      "confirmPassword": "12345678",
+      "name": "Testando",
+      "age": 20,
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "GOD OF WAR",
+      "categories": [
+        {
+          "categoryId": 4,
+          "labael": "Ação",
+          "slug": "acao"
+        },
+        {
+          "categoryId": 11,
+          "labael": "Terceira Pessoa",
+          "slug": "terceira-pessoa"
+        },
+        {
+          "categoryId": 9,
+          "labael": "RPG",
+          "slug": "rpg"
+        },
+        {
+          "categoryId": 7,
+          "labael": "Sangue",
+          "slug": "sangue"
+        }
+      ],
+      "publisher": "PlayStation PC LLC",
+      "image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
+      "price": 200,
+      "description": "Após sua vingança contra os Deuses do Olimpo anos atrás, Kratos agora vive como um homem no reino dos deuses e monstros nórdicos.",
+      "trailer": "https://www.youtube.com/watch?v=HqQMh_tij0c&t=1s",
+      "sistem": "Windows",
+      "classificacao": 18
+    },
+    {
+      "id": 2,
+      "name": "Tom Clancy's Rainbow Six: Extraction - Standard Edition",
+      "categories": [
+        {
+          "categoryId": 1,
+          "labael": "Tiro",
+          "slug": "tiro"
+        },
+        {
+          "categoryId": 3,
+          "labael": "Estratégia",
+          "slug": "estrategia"
+        }
+      ],
+      "publisher": "Ubisoft Connect",
+      "image": "https://img.hype.games/cdn/52fa7755-d5c0-4d68-a2c6-2778206a85c8[Ubisoft]-Rainbow-Six-Extraction---Standard-Edition-600.png",
+      "price": 25,
+      "description": "Por décadas, a equipe Rainbow tem sido um escudo contra as piores ameaças mundiais. Agora, vem aí o maior perigo de todos: um alienígena letal em mutação.",
+      "trailer": "https://www.youtube.com/watch?v=xy15gT9d-co",
+      "sistem": "Windows",
+      "classificacao": 16
+    },
+    {
+      "id": 3,
+      "name": "For Honor - Complete Edition",
+      "categories": [
+        {
+          "categoryId": 4,
+          "labael": "Ação",
+          "slug": "acao"
+        },
+        {
+          "categoryId": 5,
+          "labael": "Violento",
+          "slug": "violento"
+        },
+        {
+          "categoryId": 6,
+          "labael": "Luta",
+          "slug": "luta"
+        },
+        {
+          "categoryId": 7,
+          "labael": "Sangue",
+          "slug": "sangue"
+        }
+      ],
+      "publisher": "Ubisoft Connect",
+      "image": "https://img.hype.games/cdn/c823458d-f3f5-47f3-b060-dd3fa743b8e5Cover-For-Honor-Complete-Edition-600.jpg",
+      "price": 25,
+      "description": "Trilhe o caminho da destruição em campos de batalha insanos.",
+      "trailer": "https://www.youtube.com/watch?v=TynIisCWytE",
+      "sistem": "Windows",
+      "classificacao": 18
+    },
+    {
+      "id": 4,
+      "name": "Tom Clancy's Rainbow Six: Siege - Standard Edition",
+      "categories": [
+        {
+          "categoryId": 1,
+          "labael": "Tiro",
+          "slug": "tiro"
+        },
+        {
+          "categoryId": 2,
+          "labael": "Guerra",
+          "slug": "guerra"
+        }
+      ],
+      "publisher": "Ubisoft Connect",
+      "image": "https://img.hype.games/cdn/59b3d8ec-72ca-4339-9ea7-7ce81bd0e89b[Ubisoft]-Tom-Clancy's-Rainbow-Six%C2%AE-Siege-600.png",
+      "price": 25,
+      "description": "Encare uma jogabilidade 5v5 explosiva, competição de alto risco e combates de equipe PvP empolgantes.",
+      "trailer": "https://www.youtube.com/watch?v=9tRYPJ0s8Nc",
+      "sistem": "Windows",
+      "classificacao": 16
+    },
+    {
+      "id": 5,
+      "name": "Marvel's Spider-Man Remastered",
+      "categories": [
+        {
+          "categoryId": 13,
+          "labael": "Super Herói",
+          "slug": "super-heroi"
+        },
+        {
+          "categoryId": 4,
+          "labael": "Ação",
+          "slug": "acao"
+        },
+        {
+          "categoryId": 11,
+          "labael": "Terceira Pessoa",
+          "slug": "terceira-pessoa"
+        }
+      ],
+      "publisher": "Steam",
+      "image": "https://img.hype.games/cdn/ba1480b3-5961-4125-b8a5-b6f01d672ca020220809-[HYPE]-Cover_Marvel%E2%80%99sSpiderManRemastered-600.png",
+      "price": 249.9,
+      "description": "Esse não é o Spider-Man que você conhece ou já viu antes. É um Peter Parker experiente, que domina melhor a arte de combater os grandes criminosos na cidade de Nova York.",
+      "trailer": "https://www.youtube.com/watch?v=1E051WtpyWg",
+      "sistem": "Windows",
+      "classificacao": 12
+    },
+    {
+      "id": 6,
+      "name": "Predator: Hunting Grounds",
+      "categories": [
+        {
+          "categoryId": 1,
+          "labael": "Tiro",
+          "slug": "tiro"
+        },
+        {
+          "categoryId": 17,
+          "labael": "Tiro",
+          "slug": "tiro"
+        },
+        {
+          "categoryId": 11,
+          "labael": "Terceira Pessoa",
+          "slug": "terceira-pessoa"
+        },
+        {
+          "categoryId": 15,
+          "labael": "Sobrevivência",
+          "slug": "sobrevivencia"
+        }
+      ],
+      "publisher": "Steam",
+      "image": "https://img.hype.games/cdn/6c2f93c5-72e4-4112-bf7f-ef9fe02303faCOVER-PREDATOR-HUNTING-GROUND-600.jpg",
+      "price": 149.5,
+      "description": "Cace ou seja caçado neste jogo de tiro multijogador e assimétrico que coloca o homem contra o Predator. Como parte de um Fireteam, complete missões antes que o Predator encontre você. Ou seja o Predator e cace sua presa.",
+      "trailer": "https://www.youtube.com/watch?v=JG8WUSnGrqQ&t=29s",
+      "sistem": "Windows",
+      "classificacao": 18
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "labael": "Tiro",
+      "slug": "tiro"
+    },
+    {
+      "id": 2,
+      "labael": "Guerra",
+      "slug": "guerra"
+    },
+    {
+      "id": 3,
+      "labael": "Estratégia",
+      "slug": "estrategia"
+    },
+    {
+      "id": 4,
+      "labael": "Ação",
+      "slug": "acao"
+    },
+    {
+      "id": 5,
+      "labael": "Violento",
+      "slug": "violento"
+    },
+    {
+      "id": 6,
+      "labael": "Luta",
+      "slug": "luta"
+    },
+    {
+      "id": 7,
+      "labael": "Sangue",
+      "slug": "sangue"
+    },
+    {
+      "id": 8,
+      "labael": "Exploração",
+      "slug": "exploracao"
+    },
+    {
+      "id": 9,
+      "labael": "RPG",
+      "slug": "rpg"
+    },
+    {
+      "id": 10,
+      "labael": "Mitologia",
+      "slug": "mitologia"
+    },
+    {
+      "id": 11,
+      "labael": "Terceira Pessoa",
+      "slug": "terceira-pessoa"
+    },
+    {
+      "id": 12,
+      "labael": "Um Jogador",
+      "slug": "um-jogador"
+    },
+    {
+      "id": 13,
+      "labael": "Super Herói",
+      "slug": "super-heroi"
+    },
+    {
+      "id": 14,
+      "labael": "Engraçado",
+      "slug": "engraçado"
+    },
+    {
+      "id": 15,
+      "labael": "Sobrevivência",
+      "slug": "sobrevivencia"
+    },
+    {
+      "id": 16,
+      "labael": "FPS",
+      "slug": "fps"
+    },
+    {
+      "id": 17,
+      "labael": "Multijogador",
+      "slug": "multijogador"
+    },
+    {
+      "id": 18,
+      "labael": "MMORPG",
+      "slug": "mmorpg"
+    },
+    {
+      "id": 19,
+      "labael": "PVP",
+      "slug": "pvp"
+    }
+  ]
+}
