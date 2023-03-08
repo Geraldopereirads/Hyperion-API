@@ -68,46 +68,47 @@ GET /products
 
 #### Resposta
 
-[
-{
-"id": 1,
-"name": "GOD OF WAR",
-"categories": [
-4,
-11,
-9,
-7
-],
-"publisher": "PlayStation PC LLC",
-"image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
-"price": 200,
-"description": "Após sua vingança contra os Deuses do Olimpo anos atrás, Kratos agora vive como um homem no reino dos deuses e monstros nórdicos.",
-"trailer": "https://www.youtube.com/watch?v=HqQMh_tij0c&t=1s",
-"sistem": "Windows",
-"classificacao": 18
-},...]
+    [
+        {
+            "id": 1,
+            "name": "GOD OF WAR",
+            "categories": [
+            4,
+            11,
+            9,
+            7
+            ],
+            "publisher": "PlayStation PC LLC",
+            "image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
+            "price": 200,
+            "description": "Após sua vingança contra os Deuses do Olimpo anos atrás, Kratos agora vive como um homem no reino dos deuses e monstros nórdicos.",
+            "trailer": "https://www.youtube.com/watch?v=HqQMh_tij0c&t=1s",
+            "sistem": "Windows",
+            "classificacao": 18
+            },...
+    ]
 
 GET /products/:id
 
 #### Resposta
 
-{
-"id": 1,
-"name": "GOD OF WAR",
-"categories": [
-4,
-11,
-9,
-7
-],
-"publisher": "PlayStation PC LLC",
-"image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
-"price": 200,
-"description": "Após sua vingança contra os Deuses do Olimpo anos atrás, Kratos agora vive como um homem no reino dos deuses e monstros nórdicos.",
-"trailer": "https://www.youtube.com/watch?v=HqQMh_tij0c&t=1s",
-"sistem": "Windows",
-"classificacao": 18
-}
+    {
+        "id": 1,
+        "name": "GOD OF WAR",
+        "categories": [
+        4,
+        11,
+        9,
+        7
+        ],
+        "publisher": "PlayStation PC LLC",
+        "image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
+        "price": 200,
+        "description": "Após sua vingança contra os Deuses do Olimpo anos atrás, Kratos agora vive como um homem no reino dos deuses e monstros nórdicos.",
+        "trailer": "https://www.youtube.com/watch?v=HqQMh_tij0c&t=1s",
+        "sistem": "Windows",
+        "classificacao": 18
+    }
 
 ### Deletar produto
 
