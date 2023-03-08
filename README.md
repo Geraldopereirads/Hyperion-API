@@ -85,24 +85,7 @@ GET /products
 "trailer": "https://www.youtube.com/watch?v=HqQMh_tij0c&t=1s",
 "sistem": "Windows",
 "classificacao": 18
-},
-{
-"id": 2,
-"name": "Tom Clancy's Rainbow Six: Extraction - Standard Edition",
-"categories": [
-1,
-3
-],
-"publisher": "Ubisoft Connect",
-"image": "https://img.hype.games/cdn/52fa7755-d5c0-4d68-a2c6-2778206a85c8[Ubisoft]-Rainbow-Six-Extraction---Standard-Edition-600.png",
-"price": 25,
-"description": "Por décadas, a equipe Rainbow tem sido um escudo contra as piores ameaças mundiais. Agora, vem aí o maior perigo de todos: um alienígena letal em mutação.",
-"trailer": "https://www.youtube.com/watch?v=xy15gT9d-co",
-"sistem": "Windows",
-"classificacao": 16
-},
-...
-]
+},...]
 
 GET /products/:id
 
