@@ -75,22 +75,22 @@ GET /products
             "categories": [
                 {
                     "categoryId": 4,
-                    "labael": "Ação",
+                    "label": "Ação",
                     "slug": "acao"
                 },
                 {
                     "categoryId": 11,
-                    "labael": "Terceira Pessoa",
+                    "label": "Terceira Pessoa",
                     "slug": "terceira-pessoa"
                 },
                 {
                     "categoryId": 9,
-                    "labael": "RPG",
+                    "label": "RPG",
                     "slug": "rpg"
                 },
                 {
                     "categoryId": 7,
-                    "labael": "Sangue",
+                    "label": "Sangue",
                     "slug": "sangue"
                 }
             ],
@@ -108,12 +108,12 @@ GET /products
             "categories": [
                 {
                     "categoryId": 1,
-                    "labael": "Tiro",
+                    "label": "Tiro",
                     "slug": "tiro"
                 },
                 {
                     "categoryId": 3,
-                    "labael": "Estratégia",
+                    "label": "Estratégia",
                     "slug": "estrategia"
                 }
             ],
@@ -137,22 +137,22 @@ GET /products/:id
         "categories": [
             {
                 "categoryId": 4,
-                "labael": "Ação",
+                "label": "Ação",
                 "slug": "acao"
             },
             {
                 "categoryId": 11,
-                "labael": "Terceira Pessoa",
+                "label": "Terceira Pessoa",
                 "slug": "terceira-pessoa"
             },
             {
                 "categoryId": 9,
-                "labael": "RPG",
+                "label": "RPG",
                 "slug": "rpg"
             },
             {
                 "categoryId": 7,
-                "labael": "Sangue",
+                "label": "Sangue",
                 "slug": "sangue"
             }
         ],
