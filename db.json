@@ -34,22 +34,22 @@
       "categories": [
         {
           "categoryId": 4,
-          "labael": "Ação",
+          "label": "Ação",
           "slug": "acao"
         },
         {
           "categoryId": 11,
-          "labael": "Terceira Pessoa",
+          "label": "Terceira Pessoa",
           "slug": "terceira-pessoa"
         },
         {
           "categoryId": 9,
-          "labael": "RPG",
+          "label": "RPG",
           "slug": "rpg"
         },
         {
           "categoryId": 7,
-          "labael": "Sangue",
+          "label": "Sangue",
           "slug": "sangue"
         }
       ],
@@ -67,12 +67,12 @@
       "categories": [
         {
           "categoryId": 1,
-          "labael": "Tiro",
+          "label": "Tiro",
           "slug": "tiro"
         },
         {
           "categoryId": 3,
-          "labael": "Estratégia",
+          "label": "Estratégia",
           "slug": "estrategia"
         }
       ],
@@ -90,22 +90,22 @@
       "categories": [
         {
           "categoryId": 4,
-          "labael": "Ação",
+          "label": "Ação",
           "slug": "acao"
         },
         {
           "categoryId": 5,
-          "labael": "Violento",
+          "label": "Violento",
           "slug": "violento"
         },
         {
           "categoryId": 6,
-          "labael": "Luta",
+          "label": "Luta",
           "slug": "luta"
         },
         {
           "categoryId": 7,
-          "labael": "Sangue",
+          "label": "Sangue",
           "slug": "sangue"
         }
       ],
@@ -123,12 +123,12 @@
       "categories": [
         {
           "categoryId": 1,
-          "labael": "Tiro",
+          "label": "Tiro",
           "slug": "tiro"
         },
         {
           "categoryId": 2,
-          "labael": "Guerra",
+          "label": "Guerra",
           "slug": "guerra"
         }
       ],
@@ -146,17 +146,17 @@
       "categories": [
         {
           "categoryId": 13,
-          "labael": "Super Herói",
+          "label": "Super Herói",
           "slug": "super-heroi"
         },
         {
           "categoryId": 4,
-          "labael": "Ação",
+          "label": "Ação",
           "slug": "acao"
         },
         {
           "categoryId": 11,
-          "labael": "Terceira Pessoa",
+          "label": "Terceira Pessoa",
           "slug": "terceira-pessoa"
         }
       ],
@@ -174,22 +174,22 @@
       "categories": [
         {
           "categoryId": 1,
-          "labael": "Tiro",
+          "label": "Tiro",
           "slug": "tiro"
         },
         {
           "categoryId": 17,
-          "labael": "Tiro",
+          "label": "Tiro",
           "slug": "tiro"
         },
         {
           "categoryId": 11,
-          "labael": "Terceira Pessoa",
+          "label": "Terceira Pessoa",
           "slug": "terceira-pessoa"
         },
         {
           "categoryId": 15,
-          "labael": "Sobrevivência",
+          "label": "Sobrevivência",
           "slug": "sobrevivencia"
         }
       ],
