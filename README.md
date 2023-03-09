@@ -182,3 +182,106 @@ GET /products/:id
     DELETE /users/:id
 
     Precisa da autenticação (Token)
+
+### Buscar categories
+
+    GET /categories
+
+
+        [
+            {
+                "id": 1,
+                "labael": "Tiro",
+                "slug": "tiro"
+            },
+            {
+                "id": 2,
+                "labael": "Guerra",
+                "slug": "guerra"
+            },
+            {
+                "id": 3,
+                "labael": "Estratégia",
+                "slug": "estrategia"
+            },
+            {
+                "id": 4,
+                "labael": "Ação",
+                "slug": "acao"
+            },
+            {
+                "id": 5,
+                "labael": "Violento",
+                "slug": "violento"
+            },
+            {
+                "id": 6,
+                "labael": "Luta",
+                "slug": "luta"
+            },
+            {
+                "id": 7,
+                "labael": "Sangue",
+                "slug": "sangue"
+            },
+            {
+                "id": 8,
+                "labael": "Exploração",
+                "slug": "exploracao"
+            },
+            {
+                "id": 9,
+                "labael": "RPG",
+                "slug": "rpg"
+            },
+            {
+                "id": 10,
+                "labael": "Mitologia",
+                "slug": "mitologia"
+            },
+            {
+                "id": 11,
+                "labael": "Terceira Pessoa",
+                "slug": "terceira-pessoa"
+            },
+            {
+                "id": 12,
+                "labael": "Um Jogador",
+                "slug": "um-jogador"
+            },
+            {
+                "id": 13,
+                "labael": "Super Herói",
+                "slug": "super-heroi"
+            },
+            {
+                "id": 14,
+                "labael": "Engraçado",
+                "slug": "engraçado"
+            },
+            {
+                "id": 15,
+                "labael": "Sobrevivência",
+                "slug": "sobrevivencia"
+            },
+            {
+                "id": 16,
+                "labael": "FPS",
+                "slug": "fps"
+            },
+            {
+                "id": 17,
+                "labael": "Multijogador",
+                "slug": "multijogador"
+            },
+            {
+                "id": 18,
+                "labael": "MMORPG",
+                "slug": "mmorpg"
+            },
+            {
+                "id": 19,
+                "labael": "PVP",
+                "slug": "pvp"
+            }
+        ]
