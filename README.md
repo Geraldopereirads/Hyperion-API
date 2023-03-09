@@ -73,10 +73,26 @@ GET /products
             "id": 1,
             "name": "GOD OF WAR",
             "categories": [
-            4,
-            11,
-            9,
-            7
+                {
+                    "categoryId": 4,
+                    "labael": "Ação",
+                    "slug": "acao"
+                },
+                {
+                    "categoryId": 11,
+                    "labael": "Terceira Pessoa",
+                    "slug": "terceira-pessoa"
+                },
+                {
+                    "categoryId": 9,
+                    "labael": "RPG",
+                    "slug": "rpg"
+                },
+                {
+                    "categoryId": 7,
+                    "labael": "Sangue",
+                    "slug": "sangue"
+                }
             ],
             "publisher": "PlayStation PC LLC",
             "image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
@@ -85,7 +101,30 @@ GET /products
             "trailer": "https://www.youtube.com/watch?v=HqQMh_tij0c&t=1s",
             "sistem": "Windows",
             "classificacao": 18
-            },...
+        },
+        {
+            "id": 2,
+            "name": "Tom Clancy's Rainbow Six: Extraction - Standard Edition",
+            "categories": [
+                {
+                    "categoryId": 1,
+                    "labael": "Tiro",
+                    "slug": "tiro"
+                },
+                {
+                    "categoryId": 3,
+                    "labael": "Estratégia",
+                    "slug": "estrategia"
+                }
+            ],
+            "publisher": "Ubisoft Connect",
+            "image": "https://img.hype.games/cdn/52fa7755-d5c0-4d68-a2c6-2778206a85c8[Ubisoft]-Rainbow-Six-Extraction---Standard-Edition-600.png",
+            "price": 25,
+            "description": "Por décadas, a equipe Rainbow tem sido um escudo contra as piores ameaças mundiais. Agora, vem aí o maior perigo de todos: um alienígena letal em mutação.",
+            "trailer": "https://www.youtube.com/watch?v=xy15gT9d-co",
+            "sistem": "Windows",
+            "classificacao": 16
+        },...
     ]
 
 GET /products/:id
@@ -96,10 +135,26 @@ GET /products/:id
         "id": 1,
         "name": "GOD OF WAR",
         "categories": [
-        4,
-        11,
-        9,
-        7
+            {
+                "categoryId": 4,
+                "labael": "Ação",
+                "slug": "acao"
+            },
+            {
+                "categoryId": 11,
+                "labael": "Terceira Pessoa",
+                "slug": "terceira-pessoa"
+            },
+            {
+                "categoryId": 9,
+                "labael": "RPG",
+                "slug": "rpg"
+            },
+            {
+                "categoryId": 7,
+                "labael": "Sangue",
+                "slug": "sangue"
+            }
         ],
         "publisher": "PlayStation PC LLC",
         "image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
@@ -112,8 +167,18 @@ GET /products/:id
 
 ### Deletar produto
 
-DELETE /products/:id
+    DELETE /products/:id
+
+    Precisa ser admin
+
+### Buscar usuário
+
+    POST /user/:id
+
+    Precisa da autenticação (Token)
 
 ### Deleter user
 
-DELETE /users/:id
+    DELETE /users/:id
+
+    Precisa da autenticação (Token)
