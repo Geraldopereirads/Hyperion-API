@@ -203,12 +203,7 @@
     },
     {
       "name": "GOD OF WAR",
-      "categories": [
-        4,
-        11,
-        9,
-        7
-      ],
+      "categories": [4, 11, 9, 7],
       "publisher": "PlayStation PC LLC",
       "image": "https://img.hype.games/cdn/8c8c766d-7b9e-4599-94c8-89d1970e29c5040122_Cover_%20[Nexway]%20Gof%20of%20War-600.jpg",
       "price": 200,
@@ -223,97 +218,97 @@
   "categories": [
     {
       "id": 1,
-      "labael": "Tiro",
+      "label": "Tiro",
       "slug": "tiro"
     },
     {
       "id": 2,
-      "labael": "Guerra",
+      "label": "Guerra",
       "slug": "guerra"
     },
     {
       "id": 3,
-      "labael": "Estratégia",
+      "label": "Estratégia",
       "slug": "estrategia"
     },
     {
       "id": 4,
-      "labael": "Ação",
+      "label": "Ação",
       "slug": "acao"
     },
     {
       "id": 5,
-      "labael": "Violento",
+      "label": "Violento",
       "slug": "violento"
     },
     {
       "id": 6,
-      "labael": "Luta",
+      "label": "Luta",
       "slug": "luta"
     },
     {
       "id": 7,
-      "labael": "Sangue",
+      "label": "Sangue",
       "slug": "sangue"
     },
     {
       "id": 8,
-      "labael": "Exploração",
+      "label": "Exploração",
       "slug": "exploracao"
     },
     {
       "id": 9,
-      "labael": "RPG",
+      "label": "RPG",
       "slug": "rpg"
     },
     {
       "id": 10,
-      "labael": "Mitologia",
+      "label": "Mitologia",
       "slug": "mitologia"
     },
     {
       "id": 11,
-      "labael": "Terceira Pessoa",
+      "label": "Terceira Pessoa",
       "slug": "terceira-pessoa"
     },
     {
       "id": 12,
-      "labael": "Um Jogador",
+      "label": "Um Jogador",
       "slug": "um-jogador"
     },
     {
       "id": 13,
-      "labael": "Super Herói",
+      "label": "Super Herói",
       "slug": "super-heroi"
     },
     {
       "id": 14,
-      "labael": "Engraçado",
+      "label": "Engraçado",
       "slug": "engraçado"
     },
     {
       "id": 15,
-      "labael": "Sobrevivência",
+      "label": "Sobrevivência",
       "slug": "sobrevivencia"
     },
     {
       "id": 16,
-      "labael": "FPS",
+      "label": "FPS",
       "slug": "fps"
     },
     {
       "id": 17,
-      "labael": "Multijogador",
+      "label": "Multijogador",
       "slug": "multijogador"
     },
     {
       "id": 18,
-      "labael": "MMORPG",
+      "label": "MMORPG",
       "slug": "mmorpg"
     },
     {
       "id": 19,
-      "labael": "PVP",
+      "label": "PVP",
       "slug": "pvp"
     }
   ]
