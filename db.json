@@ -9,22 +9,6 @@
       "isAdmin": true,
       "cart": [],
       "paymentData": []
-    },
-    {
-      "email": "rafhael@mail.com",
-      "password": "$2a$10$sIi9RDFTSwtpp2b6S0eUluX3lFfp4/d3V.rtMPKm7knMHnpCLKamy",
-      "name": "Rafhael Cristian",
-      "age": 31,
-      "isAdmin": true,
-      "id": 2
-    },
-    {
-      "email": "test2@mail.com",
-      "password": "$2a$10$CX2ffFSn.gcU0YaTgFakN.q401LUk74F.EMBeMkgipgAuFNogj5hC",
-      "confirmPassword": "12345678",
-      "name": "Testando",
-      "age": 20,
-      "id": 3
     }
   ],
   "products": [
