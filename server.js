@@ -18,6 +18,21 @@ app.use(auth);
 app.use(router);
 app.listen(port);
 
+async function main() {
+  const acessUrl = async () => {
+    try {
+      await axios.get('https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore');
+    } catch (error) {
+      setInterval(acessUrl, 5000);
+    }
+  };
+  setInterval(acessUrl, 10000);
+}
+await app.listen(3000);
+main();
+
+
+
 console.log("Server is running on port:", port);
 
 /* A senha do Kenzinho é 123456 */
