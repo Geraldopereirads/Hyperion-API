@@ -16,8 +16,6 @@ app.use(cors());
 app.use(rules);
 app.use(auth);
 app.use(router);
-app.listen(port);
-
 async function main() {
   const acessUrl = async () => {
     try {
@@ -28,7 +26,8 @@ async function main() {
   };
   setInterval(acessUrl, 10000);
 }
-await app.listen(3000);
+app.listen(port);
+
 main();
 
 
