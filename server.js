@@ -1,14 +1,14 @@
-const axios = require("axios");
+import { get } from "axios";
 
 
 
-const jsonServer = require("json-server");
-const auth = require("json-server-auth");
-const cors = require("cors");
+import { create, router as _router } from "json-server";
+import auth, { rewriter } from "json-server-auth";
+import cors from "cors";
 const port = 3000;
 
-const app = jsonServer.create();
-const router = jsonServer.router("db.json");
+const app = create();
+const router = _router("db.json");
 
 app.db = router.db;
 
@@ -21,7 +21,7 @@ async function main() {
     isFetching = true;
 
     try {
-      await axios.get('https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore');
+      await get('https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore');
     } catch (error) {
       console.error("Error fetching data:", error);
     } finally {
@@ -33,7 +33,7 @@ async function main() {
 }
 
 
-const rules = auth.rewriter({
+const rules = rewriter({
   users: 600,
 });
 
