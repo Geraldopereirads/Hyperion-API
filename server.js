@@ -1,4 +1,5 @@
-import axios from "axios";
+const axios = require("axios");
+
 
 
 const jsonServer = require("json-server");
@@ -12,13 +13,22 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 async function main() {
+  let isFetching = false;
+
   const acessUrl = async () => {
+    if (isFetching) return;
+
+    isFetching = true;
+
     try {
       await axios.get('https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore');
     } catch (error) {
-      setInterval(acessUrl, 5000);
+      console.error("Error fetching data:", error);
+    } finally {
+      isFetching = false;
     }
   };
+
   setInterval(acessUrl, 10000);
 }
 
