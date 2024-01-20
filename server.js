@@ -1,4 +1,4 @@
-import axios from "axios";
+const axios = require("axios");
 import cors from "cors";
 import { router as _router, create } from "json-server";
 import auth, { rewriter } from "json-server-auth";
