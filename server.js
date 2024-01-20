@@ -1,12 +1,29 @@
-import { create, router as _router } from "json-server";
-import auth, { rewriter } from "json-server-auth";
+import axios from "axios";
 import cors from "cors";
-export const port = 3000;
+import { router as _router, create } from "json-server";
+import auth, { rewriter } from "json-server-auth";
 
-export const app = create();
+const port = 3000;
+
+const app = create();
 const router = _router("db.json");
 
 app.db = router.db;
+
+async function main() {
+  const acessUrl = async () => {
+    try {
+      await axios.get('https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore');
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      setInterval(acessUrl, 5000);
+    }
+  };
+
+  setInterval(acessUrl, 10000);
+}
+
+main()
 
 const rules = rewriter({
   users: 600,
