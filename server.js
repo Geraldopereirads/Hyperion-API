@@ -1,4 +1,4 @@
-import { Axios } from "axios";
+import axios from "axios";
 import cors from "cors";
 import { router as _router, create } from "json-server";
 import auth, { rewriter } from "json-server-auth";
@@ -13,7 +13,7 @@ app.db = router.db;
 async function main() {
   const acessUrl = async () => {
     try {
-      await Axios.get('https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore');
+      await axios.get('https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore');
     } catch (error) {
       console.error("Error fetching data:", error);
       setInterval(acessUrl, 5000);
