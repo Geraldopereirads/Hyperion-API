@@ -1,14 +1,32 @@
-import { create, router as _router } from "json-server";
-import auth, { rewriter } from "json-server-auth";
-import cors from "cors";
-const port = 3000;
+const axios = require("axios");
+const jsonServer = require("json-server");
+const auth = require("json-server-auth");
+const cors = require("cors");
+const port = process.env.PORT || 3001;
 
-const app = create();
-const router = _router("db.json");
+const app = jsonServer.create();
+const router = jsonServer.router("db.json");
 
 app.db = router.db;
 
-const rules = rewriter({
+async function main() {
+  const acessUrl = async () => {
+    try {
+      await axios.get("https://hyperion-r5lkcwvyd-geraldopereirads.vercel.app/gameStore")
+    } catch (error) {
+      setInterval(acessUrl, 5000)
+    }
+  }
+
+  setInterval(acessUrl, 10000)
+  await new Promise(() => { })
+
+}
+
+main()
+
+
+const rules = auth.rewriter({
   users: 600,
 });
 
